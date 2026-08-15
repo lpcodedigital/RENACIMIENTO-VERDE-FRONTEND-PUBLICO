@@ -1,0 +1,13 @@
+# Ignorar dependencias y construcciones
+node_modules/
+dist/
+build/
+
+# Ignorar variables de entorno
+.env
+.env.local
+.env.dev
+.env.prod
+
+# Ignorar archivos de configuración de IDEs
+.opencode/
