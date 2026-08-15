@@ -1,0 +1,4 @@
+import{j as r}from"./index-Txir9ccn.js";import{M as t,T as s,a as n,l as o}from"./leaflet-B8wbzBxQ.js";const i=a=>o.divIcon({html:`<div class="delivery-pin delivery-pin-${a.stockStatus}" role="button" tabindex="0" aria-label="${a.name}">
+        <span class="delivery-pin-dot" aria-hidden="true"></span>
+        <span class="delivery-pin-label">${a.name}</span>
+      </div>`,className:"",iconSize:[36,36],iconAnchor:[18,36]});function p({points:a}){return r.jsxs(t,{center:[20.5,-88.7],zoom:7,keyboard:!0,scrollWheelZoom:!1,className:"h-[400px] w-full","aria-label":"Mapa de puntos de entrega y viveros de la SDS en Yucatán",children:[r.jsx(s,{url:"https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",attribution:"© <a href='https://www.openstreetmap.org/copyright'>OpenStreetMap</a> © <a href='https://carto.com/attributions'>CARTO</a>"}),a.map(e=>r.jsx(n,{position:e.coordinates,icon:i(e)},e.id))]})}export{p as DeliveryMap,p as default};
